@@ -9,7 +9,7 @@ import { Spinner } from "../components/Spinner";
 import { Button } from "../components/Button";
 
 export default function Home() {
-  const [channelId, setChannelId] = useState("UC_x5XG1OV2P6uZZ5bRZtP1A");
+  const [channelId, setChannelId] = useState("UCxH0sQJKG6Aq9-vFIPnDZ2A");
   const [channelData, setChannelData] = useState(null);
   const [recentVideos, setRecentVideos] = useState([]);
   const [topVideo, setTopVideo] = useState(null);
